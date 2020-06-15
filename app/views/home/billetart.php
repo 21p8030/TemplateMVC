@@ -6,7 +6,7 @@
         </div>
         <div class="col-2"></div>
         <div class="col-6">
-            <h1 class="display-5 text-center border border-primary border-info mb-5">Einfache Fahrt</h1>
+            <h1 class="display-5 text-center border border-primary border-info mb-5">Hin- und Retourbillette</h1>
         </div>
     </div>
     <div class="row">

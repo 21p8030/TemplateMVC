@@ -104,7 +104,7 @@ function uberprufung() {
         </div>
         <div class="row">
             <div class="form-group col">
-                <label>Start Datum/Zeit</label>
+                <label>Start Datum</label>
                 <div class="input-group">
                     <div class="input-group-addon">
                         <i  class="fas fa-calendar-alt fa-3x">

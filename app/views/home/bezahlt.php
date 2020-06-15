@@ -19,7 +19,7 @@
                 <div class="card-header text-center">Bestätigung</div>
                 <div class="card-body">
                     <h4 class="card-title"><?php $sitzung = $data['sitzung']; echo $sitzung['Preis']; ?> CHF </h4>
-                    <p class="card-text">Vielen Dank für Ihr Vertrauen und eine guet Fahrt</p>
+                    <p class="card-text">Vielen Dank für Ihr Vertrauen und eine gute Fahrt</p>
                     <a class=" btn btn-primary" role="button"
                         onclick="location.href='http://localhost/TemplateMVC/TemplateMVC/public/home/';">Startseite</a>
                 </div>

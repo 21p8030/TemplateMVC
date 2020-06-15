@@ -97,7 +97,7 @@
                     
                     <div class="col">
                     <label style="color: #272b30;">Weiter</label>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block border border-primary border-info">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block border border-primary border-info">Weiter</button>
                     </div>
                 </div>
 

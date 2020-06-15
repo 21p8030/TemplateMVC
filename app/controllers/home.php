@@ -148,23 +148,6 @@ class Home extends Controller
         include '../app/data/sitzung.php';
         $this->view('home/billetart2', ['discount' => $discount, 'trainstations' => $trainstations, 'sitzung' => $sitzung]);
     }
-
-    public function preis_berechnung($Start, $Ziel, $Discount, $Klasse, $Count, $Multi_count, $One_way)
-    {
-        include '../app/data/trainstations.php';
-        include '../app/data/prices.php';
-        foreach ($prices as $key => $value):
-            if ($value['From'] == $Start) {
-                if ($value['To'] == $Ziel) {
-                    $Preis = $value['Price'];
-                    $Preis_Gesammt = $Preis * $Discount * $Klasse * $Count * $Multi_count * $One_way;
-                    echo $Preis_Gesammt;
-                }
-            }
-        endforeach;
-        $this->view('home/uebersicht', ['trainstations' => $trainstations, 'prices' => $prices]);
-    }
-
     public function uebersicht()
     {
         include '../app/data/sitzung.php';

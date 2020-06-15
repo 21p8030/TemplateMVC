@@ -32,7 +32,7 @@ $(document).ready(function() {
         format: 'dd/mm/yyyy',
         container: container,
         todayHighlight: true,
-        autoclose: false,
+        autoclose: true,
         orientation: 'top left',
         language: "de",
         todayBtn: "linked",
@@ -67,7 +67,7 @@ function uberprufung() {
         <div class="col-2">
         </div>
         <div class="col-6">
-            <h1 class="display-5 text-center border border-primary border-info mb-5">Einfache Fahrt</h1>
+            <h1 class="display-5 text-center border border-primary border-info mb-5">Hin- und Retourbillette</h1>
         </div>
 
 
@@ -104,7 +104,7 @@ function uberprufung() {
         </div>
         <div class="row">
             <div class="form-group col">
-                <label>Start Datum/Zeit</label>
+                <label>Start Datum</label>
                 <div class="input-group">
                     <div class="input-group-addon">
                         <i class="fas fa-calendar-alt fa-3x">
