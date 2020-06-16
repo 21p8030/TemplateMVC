@@ -105,7 +105,7 @@ class Home extends Controller
    ?>'
         );
         include '../app/data/sitzung.php';
-        $this->view('home/billetart', ['discount' => $discount, 'trainstations' => $trainstations, 'sitzung' => $sitzung]);
+        $this->view('home/billetart', ['discount' => $discount, 'sitzung' => $sitzung]);
     }
 
     public function billetart_multi()
@@ -146,7 +146,7 @@ class Home extends Controller
    ?>'
         );
         include '../app/data/sitzung.php';
-        $this->view('home/billetart2', ['discount' => $discount, 'trainstations' => $trainstations, 'sitzung' => $sitzung]);
+        $this->view('home/billetart2', ['discount' => $discount, 'sitzung' => $sitzung]);
     }
     public function uebersicht()
     {

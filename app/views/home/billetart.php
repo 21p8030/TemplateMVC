@@ -74,8 +74,6 @@
                         <input class="form-control" type="number" value="1" id="count_tickets" min="1" name="count"
                             required />
                     </div>
-
-
                     <div class="form-group ml-4">
                         <label>Klasse</label>
                         <div class="custom-control custom-radio">
@@ -88,8 +86,7 @@
                                 class="custom-control-input" />
                             <label class="custom-control-label" for="first_class">1. Klasse</label>
                         </div>
-                    </div>
-                    
+                    </div> 
                     <div class="col">
                     <label style="color: #272b30;">Weiter</label>
                         <button type="submit" class="btn btn-primary btn-lg btn-block border border-primary border-info">Weiter</button>
