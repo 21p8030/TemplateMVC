@@ -9,5 +9,11 @@ class Controller{
     public function view($view, $data = []){
         require_once('../app/views/' . $view . '.php');
     }
+    public function goto($controller, $method, $args = []) {
+        $base = '/Demo/TemplateMVC/public';
+        $location = 'http://' . $_SERVER['HTTP_HOST'] . $base . "/" . $controller . "/" . $method . "/" . implode("/", $args);
+        header("Location: " . $location);
+        exit;
+    }
 }
 ?>
